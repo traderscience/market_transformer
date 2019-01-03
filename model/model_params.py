@@ -21,7 +21,7 @@ BASE_PARAMS = defaultdict(
     lambda: None,  # Set default value to None.
 
     # Input params
-    default_batch_size=2048,  # Maximum number of tokens per batch of examples.
+    default_batch_size=1024,  # Maximum number of tokens per batch of examples.
     default_batch_size_tpu=32768,
     max_length=256,  # Maximum number of tokens per example.
 
