@@ -32,14 +32,14 @@ from absl import flags
 import tensorflow as tf
 # pylint: enable=g-bad-import-order
 
-from official.transformer import compute_bleu
-from official.transformer import translate
-from official.transformer.model import model_params
-from official.transformer.model import transformer
-from official.transformer.utils import dataset
-from official.transformer.utils import metrics
-from official.transformer.utils import schedule
-from official.transformer.utils import tokenizer
+import compute_bleu
+import translate
+from model import model_params
+from model import transformer
+from utils import dataset
+from utils import metrics
+from utils import schedule
+from utils import tokenizer
 from official.utils.accelerator import tpu as tpu_util
 from official.utils.export import export
 from official.utils.flags import core as flags_core

@@ -30,7 +30,7 @@ from absl import flags
 import tensorflow as tf
 # pylint: enable=g-bad-import-order
 
-from official.transformer.utils import tokenizer
+from utils import tokenizer
 from official.utils.flags import core as flags_core
 
 # Data sources for training/evaluating the transformer translation model.
@@ -321,7 +321,7 @@ def shuffle_records(fname):
   tmp_fname = fname + ".unshuffled"
   tf.gfile.Rename(fname, tmp_fname)
 
-  reader = tf.compat.v1.io.tf_record_iterator(tmp_fname)
+  reader = tf.io.tf_record_iterator(tmp_fname)
   records = []
   for record in reader:
     records.append(record)
