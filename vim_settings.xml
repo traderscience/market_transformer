@@ -1,0 +1,36 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="false" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/projects/python/PycharmProjects/ts_seq2seq/time_series_seq2seq.py" timestamp="1543991007021">
+        <mark key="'" line="208" column="15" />
+        <mark key="[" line="225" column="18" />
+      </file>
+      <file name="$USER_HOME$/projects/python/PycharmProjects/ts_seq2seq/network.py" timestamp="1543994055243">
+        <mark key="'" line="229" column="0" />
+        <mark key="[" line="18" column="20" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="228" column="0" filename="$USER_HOME$/projects/python/PycharmProjects/ts_seq2seq/network.py" />
+      <jump line="208" column="15" filename="$USER_HOME$/projects/python/PycharmProjects/ts_seq2seq/time_series_seq2seq.py" />
+    </jumps>
+    <registers />
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed I</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
