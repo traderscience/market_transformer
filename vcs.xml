@@ -38,6 +38,10 @@
           <option name="url" value="https://github.com/notadamking/Stock-Trading-Environment.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/marekgalovic/articles.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/projects/python/PycharmProjects" />
