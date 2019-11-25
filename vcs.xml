@@ -46,6 +46,10 @@
           <option name="url" value="https://github.com/JEddy92/TimeSeries_Seq2Seq.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/thushv89/attention_keras.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/projects/python/PycharmProjects" />
